@@ -1,0 +1,235 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  77460  8272 ?        Ss   09:30   0:01 /sbin/init noibrs splash
+root           2  0.0  0.0      0     0 ?        S    09:30   0:00 [kthreadd]
+root           4  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/0:0H]
+root           6  0.0  0.0      0     0 ?        I<   09:30   0:00 [mm_percpu_wq]
+root           7  0.0  0.0      0     0 ?        S    09:30   0:00 [ksoftirqd/0]
+root           8  0.0  0.0      0     0 ?        I    09:30   0:00 [rcu_sched]
+root           9  0.0  0.0      0     0 ?        I    09:30   0:00 [rcu_bh]
+root          10  0.0  0.0      0     0 ?        S    09:30   0:00 [migration/0]
+root          11  0.0  0.0      0     0 ?        S    09:30   0:00 [watchdog/0]
+root          12  0.0  0.0      0     0 ?        S    09:30   0:00 [cpuhp/0]
+root          13  0.0  0.0      0     0 ?        S    09:30   0:00 [cpuhp/1]
+root          14  0.0  0.0      0     0 ?        S    09:30   0:00 [watchdog/1]
+root          15  0.0  0.0      0     0 ?        S    09:30   0:00 [migration/1]
+root          16  0.0  0.0      0     0 ?        S    09:30   0:00 [ksoftirqd/1]
+root          18  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/1:0H]
+root          19  0.0  0.0      0     0 ?        S    09:30   0:00 [cpuhp/2]
+root          20  0.0  0.0      0     0 ?        S    09:30   0:00 [watchdog/2]
+root          21  0.0  0.0      0     0 ?        S    09:30   0:00 [migration/2]
+root          22  0.0  0.0      0     0 ?        S    09:30   0:00 [ksoftirqd/2]
+root          24  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/2:0H]
+root          25  0.0  0.0      0     0 ?        S    09:30   0:00 [cpuhp/3]
+root          26  0.0  0.0      0     0 ?        S    09:30   0:00 [watchdog/3]
+root          27  0.0  0.0      0     0 ?        S    09:30   0:00 [migration/3]
+root          28  0.0  0.0      0     0 ?        S    09:30   0:00 [ksoftirqd/3]
+root          30  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/3:0H]
+root          31  0.0  0.0      0     0 ?        S    09:30   0:00 [cpuhp/4]
+root          32  0.0  0.0      0     0 ?        S    09:30   0:00 [watchdog/4]
+root          33  0.0  0.0      0     0 ?        S    09:30   0:00 [migration/4]
+root          34  0.0  0.0      0     0 ?        S    09:30   0:00 [ksoftirqd/4]
+root          35  0.0  0.0      0     0 ?        I    09:30   0:00 [kworker/4:0]
+root          36  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/4:0H]
+root          37  0.0  0.0      0     0 ?        S    09:30   0:00 [cpuhp/5]
+root          38  0.0  0.0      0     0 ?        S    09:30   0:00 [watchdog/5]
+root          39  0.0  0.0      0     0 ?        S    09:30   0:00 [migration/5]
+root          40  0.0  0.0      0     0 ?        S    09:30   0:00 [ksoftirqd/5]
+root          42  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/5:0H]
+root          43  0.0  0.0      0     0 ?        S    09:30   0:00 [cpuhp/6]
+root          44  0.0  0.0      0     0 ?        S    09:30   0:00 [watchdog/6]
+root          45  0.0  0.0      0     0 ?        S    09:30   0:00 [migration/6]
+root          46  0.0  0.0      0     0 ?        S    09:30   0:00 [ksoftirqd/6]
+root          48  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/6:0H]
+root          49  0.0  0.0      0     0 ?        S    09:30   0:00 [cpuhp/7]
+root          50  0.0  0.0      0     0 ?        S    09:30   0:00 [watchdog/7]
+root          51  0.0  0.0      0     0 ?        S    09:30   0:00 [migration/7]
+root          52  0.0  0.0      0     0 ?        S    09:30   0:00 [ksoftirqd/7]
+root          54  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/7:0H]
+root          55  0.0  0.0      0     0 ?        S    09:30   0:00 [kdevtmpfs]
+root          56  0.0  0.0      0     0 ?        I<   09:30   0:00 [netns]
+root          57  0.0  0.0      0     0 ?        S    09:30   0:00 [rcu_tasks_kthre]
+root          58  0.0  0.0      0     0 ?        S    09:30   0:00 [kauditd]
+root          59  0.0  0.0      0     0 ?        I    09:30   0:00 [kworker/0:1]
+root          61  0.0  0.0      0     0 ?        S    09:30   0:00 [khungtaskd]
+root          62  0.0  0.0      0     0 ?        S    09:30   0:00 [oom_reaper]
+root          63  0.0  0.0      0     0 ?        I<   09:30   0:00 [writeback]
+root          64  0.0  0.0      0     0 ?        S    09:30   0:00 [kcompactd0]
+root          65  0.0  0.0      0     0 ?        SN   09:30   0:00 [ksmd]
+root          66  0.0  0.0      0     0 ?        SN   09:30   0:00 [khugepaged]
+root          67  0.0  0.0      0     0 ?        I<   09:30   0:00 [crypto]
+root          68  0.0  0.0      0     0 ?        I<   09:30   0:00 [kintegrityd]
+root          69  0.0  0.0      0     0 ?        I<   09:30   0:00 [kblockd]
+root          70  0.0  0.0      0     0 ?        I<   09:30   0:00 [ata_sff]
+root          71  0.0  0.0      0     0 ?        I<   09:30   0:00 [md]
+root          72  0.0  0.0      0     0 ?        I<   09:30   0:00 [edac-poller]
+root          73  0.0  0.0      0     0 ?        I<   09:30   0:00 [devfreq_wq]
+root          74  0.0  0.0      0     0 ?        I<   09:30   0:00 [watchdogd]
+root          77  0.0  0.0      0     0 ?        S    09:30   0:00 [kswapd0]
+root          78  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/u17:0]
+root          79  0.0  0.0      0     0 ?        S    09:30   0:00 [ecryptfs-kthrea]
+root          86  0.0  0.0      0     0 ?        I    09:30   0:00 [kworker/7:1]
+root         122  0.0  0.0      0     0 ?        I<   09:30   0:00 [kthrotld]
+root         123  0.0  0.0      0     0 ?        I<   09:30   0:00 [acpi_thermal_pm]
+root         128  0.0  0.0      0     0 ?        I    09:30   0:00 [kworker/5:1]
+root         129  0.0  0.0      0     0 ?        I<   09:30   0:00 [ipv6_addrconf]
+root         138  0.0  0.0      0     0 ?        I<   09:30   0:00 [kstrp]
+root         156  0.0  0.0      0     0 ?        I<   09:30   0:00 [charger_manager]
+root         190  0.0  0.0      0     0 ?        I    09:30   0:00 [kworker/1:1]
+root         216  0.0  0.0      0     0 ?        I    09:30   0:00 [kworker/u16:4]
+root         235  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/3:1H]
+root         237  0.0  0.0      0     0 ?        S    09:30   0:00 [jbd2/vda1-8]
+root         238  0.0  0.0      0     0 ?        I<   09:30   0:00 [ext4-rsv-conver]
+root         267  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/4:1H]
+root         296  0.0  0.0 108888 21440 ?        S<s  09:30   0:00 /lib/systemd/systemd-journald
+root         297  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/6:1H]
+root         316  0.0  0.0  45904  4852 ?        Ss   09:30   0:00 /lib/systemd/systemd-udevd
+root         320  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/7:1H]
+root         418  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/0:1H]
+root         442  0.0  0.0      0     0 ?        I<   09:30   0:00 [ttm_swap]
+root         473  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/1:1H]
+root         480  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/5:1H]
+root         528  0.0  0.0      0     0 ?        I<   09:30   0:00 [kworker/2:1H]
+systemd+     608  0.0  0.0  80056  5768 ?        Ss   09:30   0:00 /lib/systemd/systemd-networkd
+systemd+     623  0.0  0.0  70624  6048 ?        Ss   09:30   0:00 /lib/systemd/systemd-resolved
+root         708  0.0  0.0  31328  3272 ?        Ss   09:30   0:00 /usr/sbin/cron -f
+root         724  0.0  0.0 170452 17136 ?        Ssl  09:30   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         742  0.0  0.0 816268 15856 ?        Ssl  09:30   0:00 /usr/local/share/aliyun-assist/2.2.3.421/aliyun-service
+daemon       751  0.0  0.0  28340  2352 ?        Ss   09:30   0:00 /usr/sbin/atd -f
+message+     753  0.0  0.0  50052  4424 ?        Ss   09:30   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         790  0.0  0.0  70452  5876 ?        Ss   09:30   0:00 /lib/systemd/systemd-logind
+root         795  0.0  0.0  17808  2096 ?        Ssl  09:30   0:00 /usr/local/share/assist-daemon/assist_daemon
+syslog       812  0.0  0.0 263096  4316 ?        Ssl  09:30   0:00 /usr/sbin/rsyslogd -n
+root         822  0.0  0.0 287580  6788 ?        Ssl  09:30   0:00 /usr/lib/accountsservice/accounts-daemon
+root         828  0.0  0.1 1727728 45068 ?       Ssl  09:30   0:00 /usr/bin/containerd
+root         841  0.0  0.0 187180 20160 ?        Ssl  09:30   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+_chrony      858  0.0  0.0 105548  2736 ?        S    09:30   0:00 /usr/sbin/chronyd
+root         859  0.0  0.0  72360  5676 ?        Ss   09:30   0:00 /usr/sbin/sshd -D
+root         867  0.0  0.0  44240  6184 ?        Ssl  09:30   0:00 /usr/local/aegis/aegis_update/AliYunDunUpdate
+root         899  0.0  0.0  15964  2380 ttyS0    Ss+  09:30   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         906  0.0  0.0  16188  1944 tty1     Ss+  09:30   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root        1053  1.2  0.2 1864656 82672 ?       Ssl  09:30   0:20 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1126  0.1  0.0 102028 11784 ?        S<sl 09:30   0:02 /usr/local/aegis/aegis_client/aegis_11_55/AliYunDun
+root        1144  0.7  0.0 153396 32228 ?        S<sl 09:30   0:12 /usr/local/aegis/aegis_client/aegis_11_55/AliYunDunMonitor
+root        1587  0.0  0.0  76648  7572 ?        Ss   09:31   0:00 /lib/systemd/systemd --user
+root        1594  0.0  0.0 109144  2164 ?        S    09:31   0:00 (sd-pam)
+root        1691  0.0  0.0   4636   780 ?        S    09:32   0:00 sh /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /root/.vscode-server/.6a995c4f4cc2ced6e3237749973982e751cb0bf9.token
+root        1701  0.5  0.2 963284 81724 ?        Sl   09:32   0:08 /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /root/.vscode-server/.6a995c4f4cc2ced6e3237749973982e751cb0bf9.token
+root        1766  0.1  0.1 840896 59980 ?        Sl   09:32   0:03 /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/bootstrap-fork --type=ptyHost --logsPath /root/.vscode-server/data/logs/20230522T093200
+root        2087  0.0  0.0 438264  6180 ?        S<l  09:33   0:00 /usr/local/aegis/AliSecGuard/AliSecGuard
+root        2376  0.0  0.0 109244  8504 ?        Ss   09:35   0:00 sshd: root@notty
+root        2398  0.0  0.0  12892  3196 ?        Ss   09:35   0:00 bash
+root        2400  0.2  0.3 1010524 126228 ?      Sl   09:35   0:03 /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+root        2411  0.0  0.1 1046640 44712 ?       Sl   09:35   0:00 /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/bootstrap-fork --type=fileWatcher
+root        2502  0.1  0.3 897272 124592 ?       Sl   09:35   0:02 /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/node /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.30/dist/server.bundle.js --cancellationReceive=file:ed3103db5632996ca87e1a08987841af80a3f044f0 --node-ipc --clientProcessId=2400
+root        3051  0.0  0.0      0     0 ?        I    09:36   0:00 [kworker/u16:1]
+root        3183  0.0  0.0  31100  5184 ?        Ss   09:37   0:00 tmux new -s s0
+root        3184  0.0  0.0  22800  5436 pts/1    Ss+  09:37   0:00 -bash
+root        3699  0.0  0.0      0     0 ?        I    09:38   0:00 [kworker/7:2]
+root        3778  0.0  0.0  21744  4072 pts/2    Ss   09:38   0:00 /bin/bash --init-file /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root        3963  0.0  0.0      0     0 ?        I    09:38   0:00 [kworker/3:0]
+root        4168  0.0  0.0      0     0 ?        I    09:38   0:00 [kworker/u16:2]
+root        4182  0.0  0.0 1301144 3640 ?        Sl   09:38   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 127.0.0.1 -host-port 33495 -container-ip 172.18.0.2 -container-port 6443
+root        4205  0.0  0.0 711028  8260 ?        Sl   09:38   0:00 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 7b21cbe711028db1bfdde90d0e8173441b1941a48c894750c777942b870c4ec1 -address /run/containerd/containerd.sock
+root        4234  0.0  0.0  18644 11064 ?        Ss   09:38   0:00 /sbin/init
+root        4802  0.0  0.0  23680 11116 ?        S<s  09:38   0:00 /lib/systemd/systemd-journald
+root        4854  2.6  0.2 2548736 79044 ?       Ssl  09:38   0:28 /usr/local/bin/containerd
+root        5170  0.0  0.0 712924  8124 ?        Sl   09:38   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id ea26de3cf2b21d3c71678fa77f10f748c59a7bc56663d2941201693af0aca8a7 -address /run/containerd/containerd.sock
+root        5178  0.0  0.0 712924  9372 ?        Sl   09:38   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 2e2c208118e5ad92274c8d2102a431b930c03a78904f17ce0db7dbb8c6adc3a3 -address /run/containerd/containerd.sock
+root        5201  0.0  0.0 712924  9208 ?        Sl   09:38   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 75dc1b06d2c1f99af047183cbeae3b5d1a24a7f3f7ce6fe7fa3cfa4ad0980c8f -address /run/containerd/containerd.sock
+root        5237  0.0  0.0 712924  9008 ?        Sl   09:38   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id bb35167decbc4bf404f538082a15c09b13ac53c676d4e198d579eacbf16e3503 -address /run/containerd/containerd.sock
+65535       5267  0.0  0.0    968     4 ?        Ss   09:38   0:00 /pause
+65535       5278  0.0  0.0    968     4 ?        Ss   09:38   0:00 /pause
+65535       5281  0.0  0.0    968     4 ?        Ss   09:38   0:00 /pause
+65535       5282  0.0  0.0    968     4 ?        Ss   09:38   0:00 /pause
+root        5444  0.2  0.1 753300 55104 ?        Ssl  09:38   0:02 kube-scheduler --authentication-kubeconfig=/etc/kubernetes/scheduler.conf --authorization-kubeconfig=/etc/kubernetes/scheduler.conf --bind-address=127.0.0.1 --kubeconfig=/etc/kubernetes/scheduler.conf --leader-elect=true --port=0
+root        5467  0.5  0.3 821084 117220 ?       Ssl  09:38   0:05 kube-controller-manager --allocate-node-cidrs=true --authentication-kubeconfig=/etc/kubernetes/controller-manager.conf --authorization-kubeconfig=/etc/kubernetes/controller-manager.conf --bind-address=127.0.0.1 --client-ca-file=/etc/kubernetes/pki/ca.crt --cluster-cidr=10.244.0.0/16 --cluster-name=kind --cluster-signing-cert-file=/etc/kubernetes/pki/ca.crt --cluster-signing-key-file=/etc/kubernetes/pki/ca.key --controllers=*,bootstrapsigner,tokencleaner --enable-hostpath-provisioner=true --kubeconfig=/etc/kubernetes/controller-manager.conf --leader-elect=true --port=0 --requestheader-client-ca-file=/etc/kubernetes/pki/front-proxy-ca.crt --root-ca-file=/etc/kubernetes/pki/ca.crt --service-account-private-key-file=/etc/kubernetes/pki/sa.key --service-cluster-ip-range=10.96.0.0/16 --use-service-account-credentials=true
+root        5470  2.8  1.1 1103048 363632 ?      Ssl  09:38   0:31 kube-apiserver --advertise-address=172.18.0.2 --allow-privileged=true --authorization-mode=Node,RBAC --client-ca-file=/etc/kubernetes/pki/ca.crt --enable-admission-plugins=NodeRestriction --enable-bootstrap-token-auth=true --etcd-cafile=/etc/kubernetes/pki/etcd/ca.crt --etcd-certfile=/etc/kubernetes/pki/apiserver-etcd-client.crt --etcd-keyfile=/etc/kubernetes/pki/apiserver-etcd-client.key --etcd-servers=https://127.0.0.1:2379 --insecure-port=0 --kubelet-client-certificate=/etc/kubernetes/pki/apiserver-kubelet-client.crt --kubelet-client-key=/etc/kubernetes/pki/apiserver-kubelet-client.key --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --proxy-client-cert-file=/etc/kubernetes/pki/front-proxy-client.crt --proxy-client-key-file=/etc/kubernetes/pki/front-proxy-client.key --requestheader-allowed-names=front-proxy-client --requestheader-client-ca-file=/etc/kubernetes/pki/front-proxy-ca.crt --requestheader-extra-headers-prefix=X-Remote-Extra- --requestheader-group-headers=X-Remote-Group --requestheader-username-headers=X-Remote-User --runtime-config= --secure-port=6443 --service-account-issuer=https://kubernetes.default.svc.cluster.local --service-account-key-file=/etc/kubernetes/pki/sa.pub --service-account-signing-key-file=/etc/kubernetes/pki/sa.key --service-cluster-ip-range=10.96.0.0/16 --tls-cert-file=/etc/kubernetes/pki/apiserver.crt --tls-private-key-file=/etc/kubernetes/pki/apiserver.key
+root        5511  0.9  0.1 10613752 53684 ?      Ssl  09:38   0:10 etcd --advertise-client-urls=https://172.18.0.2:2379 --cert-file=/etc/kubernetes/pki/etcd/server.crt --client-cert-auth=true --data-dir=/var/lib/etcd --initial-advertise-peer-urls=https://172.18.0.2:2380 --initial-cluster=kind-control-plane=https://172.18.0.2:2380 --key-file=/etc/kubernetes/pki/etcd/server.key --listen-client-urls=https://127.0.0.1:2379,https://172.18.0.2:2379 --listen-metrics-urls=http://127.0.0.1:2381 --listen-peer-urls=https://172.18.0.2:2380 --name=kind-control-plane --peer-cert-file=/etc/kubernetes/pki/etcd/peer.crt --peer-client-cert-auth=true --peer-key-file=/etc/kubernetes/pki/etcd/peer.key --peer-trusted-ca-file=/etc/kubernetes/pki/etcd/ca.crt --snapshot-count=10000 --trusted-ca-file=/etc/kubernetes/pki/etcd/ca.crt
+root        5648  2.3  0.3 2153012 125168 ?      Ssl  09:38   0:25 /usr/bin/kubelet --bootstrap-kubeconfig=/etc/kubernetes/bootstrap-kubelet.conf --kubeconfig=/etc/kubernetes/kubelet.conf --config=/var/lib/kubelet/config.yaml --container-runtime=remote --container-runtime-endpoint=unix:///run/containerd/containerd.sock --fail-swap-on=false --node-ip=172.18.0.2 --node-labels= --pod-infra-container-image=k8s.gcr.io/pause:3.4.1 --provider-id=kind://docker/kind/kind-control-plane --fail-swap-on=false --cgroup-root=/kubelet
+root        6134  0.0  0.0  21208  3332 pts/2    S+   09:39   0:00 tmux a
+root        6147  0.0  0.0 712924  9876 ?        Sl   09:39   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 316dd940b2e8545e8cca72f2a01e72d4ed36df472a6a1555de78b89e0f457a90 -address /run/containerd/containerd.sock
+65535       6172  0.0  0.0    968     4 ?        Ss   09:39   0:00 /pause
+root        6203  0.0  0.0 712924  9968 ?        Sl   09:39   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 71f3f6c5a9c0f53a9179a67a1f0dbb9fa28719e3502b2f7f01560ceb0024847e -address /run/containerd/containerd.sock
+65535       6227  0.0  0.0    968     4 ?        Ss   09:39   0:00 /pause
+root        6317  0.0  0.1 748904 42440 ?        Ssl  09:39   0:00 /usr/local/bin/kube-proxy --config=/var/lib/kube-proxy/config.conf --hostname-override=kind-control-plane
+root        6371  0.0  0.0 733116 25628 ?        Ssl  09:39   0:00 /bin/kindnetd
+root        6607  0.0  0.0 713180 10124 ?        Sl   09:39   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id e30bb7a40f3ce1fd8787680f31bdc446a60999791d19bef6409825bd972c6b4f -address /run/containerd/containerd.sock
+root        6642  0.0  0.0 712924  8648 ?        Sl   09:39   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id c45c7a4cbf15f01b1d9bd3d912eec3c62700ee256d586cfc62495c360bc368bb -address /run/containerd/containerd.sock
+65535       6647  0.0  0.0    968     4 ?        Ss   09:39   0:00 /pause
+65535       6694  0.0  0.0    968     4 ?        Ss   09:39   0:00 /pause
+root        6713  0.0  0.0 713180  9960 ?        Sl   09:39   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 8538710011e8399ac0aef60d1bdd322e18b48e5d2651f780c2c0a32339685a23 -address /run/containerd/containerd.sock
+65535       6739  0.0  0.0    968     4 ?        Ss   09:39   0:00 /pause
+root        6860  0.1  0.1 747284 42448 ?        Ssl  09:39   0:01 /coredns -conf /etc/coredns/Corefile
+root        6886  0.1  0.1 747796 42236 ?        Ssl  09:39   0:01 /coredns -conf /etc/coredns/Corefile
+root        6897  0.0  0.0 139748 24964 ?        Ssl  09:39   0:00 local-path-provisioner --debug start --helper-image k8s.gcr.io/build-image/debian-base:v2.1.0 --config /etc/config/config.json
+root        8429  0.0  0.0 712924  9908 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 49c8bc5ee0d0351e9f7824207ad4994870026a992f1acb4793631f75ad5db0c5 -address /run/containerd/containerd.sock
+root        8462  0.0  0.0 713180  9412 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 47edfc60c61c6267ae03462de1de3caa14666d8c7a0501686d99f9667417097e -address /run/containerd/containerd.sock
+65535       8480  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+65535       8535  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        8600  0.0  0.0 712988 10360 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id cc44613f10c512a8f799348eac6890c16ec364155c4acf673651aada1b825af0 -address /run/containerd/containerd.sock
+65535       8625  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        8682  0.0  0.0 712988  9924 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id e06ffa619aa131c44fc347127bd37b47637e8b13ce4089f200962735a97e89b0 -address /run/containerd/containerd.sock
+65535       8707  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        8761  0.0  0.0 712924  9340 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 5ff137e67974c566e5b2a217a3fdf8f5af8684f7eb6f26375a607f642a2dde68 -address /run/containerd/containerd.sock
+65535       8785  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        8861  0.0  0.0 712924 10052 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 81027c7ce6de667069ffa4057fd30da718eb763e0a2d7f9823ceaa23cf66d617 -address /run/containerd/containerd.sock
+root        8893  0.0  0.0 712668  8752 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 7081a4cf6317d5860a129a74268d08a8a68188ee9b6066ae9dc501277506dcaa -address /run/containerd/containerd.sock
+65535       8908  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+65535       8940  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9062  0.0  0.0 712924  9584 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 92a6c7cbf6cc9d06e21752f6b34a3f72ce88ececd4684e9e185dd3237dabe7b4 -address /run/containerd/containerd.sock
+root        9094  0.0  0.0 712668  9852 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id adff7963fabf1fd949cb9567f50d33adff625c7a71186ababd0b079929e7fcee -address /run/containerd/containerd.sock
+65535       9118  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+65535       9137  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9223  0.0  0.0 712924  9452 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 586c9e2bede3d16ad9b47e4b662fa5bf4b976ca6840185b5983d65230cc59c5d -address /run/containerd/containerd.sock
+65535       9253  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9274  0.0  0.0 713180  9104 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 98fb6253ffe379433e0ade0f8c554944bbc64cdcf722f0b5219d41c09d831213 -address /run/containerd/containerd.sock
+65535       9301  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9417  0.0  0.0 712668  9520 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 8b86d82ef986eb8c5f5a075df2518e0e487c79bf987c2b108659d820783e18f0 -address /run/containerd/containerd.sock
+65535       9447  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9464  0.0  0.0 712924  9772 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id f78ad0c41a5dc3b5805374b5a75f645e1b178fcce03b2d383fef5b3f32bfc326 -address /run/containerd/containerd.sock
+root        9502  0.0  0.0 712924  9172 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id c641ff045aa945e99d10f49b86cbcd987c911fd4a9f89be369f6f6db480e99dc -address /run/containerd/containerd.sock
+65535       9525  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+65535       9547  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9614  0.0  0.0      0     0 ?        I    09:43   0:00 [kworker/6:2]
+root        9629  0.0  0.0 712924 10148 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id b71236623a37c390765e55fad56060b8fc94b259d737bee09abb39d9aca8c807 -address /run/containerd/containerd.sock
+65535       9654  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9727  0.0  0.0 712924  9740 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 4c2803617794fc7afdaa4a8463a21a2cb75ca5ecbe459187c9416bfb9959d6ea -address /run/containerd/containerd.sock
+65535       9758  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9782  0.0  0.0 713180 10608 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id c54272e0e5b1db1742440475191e55ed79b49fb2c261666b846cfc2d4c5b9a6d -address /run/containerd/containerd.sock
+65535       9805  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9869  0.0  0.0 713180  9240 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 1b153cd1e0e7d7ab4a69da719c4431e1a9b309be75c6500407dc77068750e8d5 -address /run/containerd/containerd.sock
+65535       9895  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root        9940  0.0  0.0      0     0 ?        I    09:43   0:00 [kworker/2:0]
+root        9954  0.0  0.0 713180 10144 ?        Sl   09:43   0:00 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id ddd37f7bc25b9d877787c13134fef9d637a92b1db518d968a1c5c0158972600d -address /run/containerd/containerd.sock
+65535       9990  0.0  0.0    968     4 ?        Ss   09:43   0:00 /pause
+root       10807  0.0  0.0 1303716 12288 ?       Ssl  09:45   0:00 frontend
+root       11089  0.0  0.0      0     0 ?        I    09:46   0:00 [kworker/5:2]
+root       11279  0.0  0.0    216    12 ?        Ss   09:46   0:00 /usr/bin/dumb-init /bin/sh /usr/local/bin/docker-entrypoint.sh agent -dev -client 0.0.0.0
+systemd+   11301  0.3  0.2 812192 89712 ?        Ssl  09:46   0:02 consul agent -data-dir=/consul/data -config-dir=/consul/config -dev -client 0.0.0.0
+root       11573  0.0  0.1 750692 33576 ?        Ssl  09:46   0:00 /go/bin/all-in-one-linux
+11211      12028  0.0  0.0 409780  3788 ?        Ssl  09:47   0:00 memcached
+root       12371  0.0  0.0      0     0 ?        I    09:47   0:00 [kworker/4:2]
+root       12400  0.0  0.0      0     0 ?        I    09:47   0:00 [kworker/1:0]
+root       12445  0.0  0.0      0     0 ?        I    09:47   0:00 [kworker/0:2]
+999        12774  0.3  0.3 1597636 102464 ?      Ssl  09:48   0:01 mongod --bind_ip_all
+999        13139  0.3  0.3 1597636 101912 ?      Ssl  09:48   0:01 mongod --bind_ip_all
+root       13669  0.0  0.0      0     0 ?        I    09:49   0:00 [kworker/2:1]
+999        13871  0.3  0.3 1597444 104456 ?      Ssl  09:49   0:01 mongod --bind_ip_all
+root       13968  0.0  0.0      0     0 ?        I    09:49   0:00 [kworker/3:2]
+11211      14109  0.0  0.0 409780  3680 ?        Ssl  09:49   0:00 memcached
+11211      14251  0.0  0.0 409780  3668 ?        Ssl  09:50   0:00 memcached
+999        14487  0.3  0.3 1596420 100984 ?      Ssl  09:50   0:01 mongod --bind_ip_all
+root       14717  0.0  0.0 1155976 10108 ?       Ssl  09:50   0:00 search
+999        15190  0.4  0.3 1622748 101316 ?      Ssl  09:50   0:01 mongod --bind_ip_all
+root       15299  0.0  0.0      0     0 ?        I    09:50   0:00 [kworker/6:0]
+999        15460  0.3  0.3 1596420 101560 ?      Ssl  09:51   0:01 mongod --bind_ip_all
+root       15795  0.0  0.0 1156704 11764 ?       Ssl  09:51   0:00 geo
+root       16009  0.0  0.0 1156716 12696 ?       Ssl  09:51   0:00 profile
+root       16302  0.0  0.0 1156712 11996 ?       Ssl  09:51   0:00 rate
+root       16667  0.0  0.0 1156720 11612 ?       Ssl  09:52   0:00 reservation
+root       16948  0.0  0.0 1156664 11548 ?       Ssl  09:52   0:00 recommendation
+root       17193  0.0  0.0 1452460 13328 ?       Ssl  09:52   0:00 user
+root       20768  0.0  0.0  21744  4308 pts/3    Ss   09:56   0:00 /bin/bash --init-file /root/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+root       20961  0.0  0.0   7476   796 ?        S    09:56   0:00 sleep 180
+root       21347  1.5  0.0  77664 12744 ?        S<l  09:57   0:00 /usr/local/aegis/PythonLoaderTemp/AliSecureCheckAdvanced Rtap13509728611684720625
+root       21358  0.0  0.0  39672  3508 pts/3    R+   09:57   0:00 ps -aux

@@ -8,4 +8,5 @@ if [ -z "$CONFIG_PATH" ]; then
     CONFIG_PATH=~/.kube/config
 fi
 
+echo ${CONFIG_PATH}
 kubectl logs -f $(kubectl get pods --kubeconfig ${CONFIG_PATH} | awk '/cilantroscheduler/ {print $1;exit}') --kubeconfig ${CONFIG_PATH}
