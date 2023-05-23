@@ -1,0 +1,216 @@
+05-23 15:49:01 | INFO   | __main__                                 || Created Env: Env(#nodes=21, #leaf-nodes=20):: (db0j1, e0.05, t0.90), (db0j2, e0.05, t0.90), (db0j3, e0.05, t0.95), (db1j1, e0.05, t0.90), (db1j2, e0.05, t0.90), (db1j3, e0.05, t0.95), (db1j4, e0.05, t0.95), (db1j5, e0.05, t0.95), (db1j6, e0.05, t0.99), (db1j7, e0.05, t0.99), (mltj1, e0.05, t400.00), (mltj2, e0.05, t400.00), (mltj3, e0.05, t450.00), (mltj4, e0.05, t450.00), (mltj5, e0.05, t500.00), (mltj6, e0.05, t500.00), (mltj7, e0.05, t500.00), (prsj1, e0.05, t0.90), (prsj2, e0.05, t0.90), (prsj3, e0.05, t0.95)..
+in root -1
+lf root--db0j1 1 0.9 -1 linear
+lf root--db0j2 1 0.9 -1 linear
+lf root--db0j3 1 0.95 -1 linear
+lf root--db1j1 1 0.9 -1 linear
+lf root--db1j2 1 0.9 -1 linear
+lf root--db1j3 1 0.95 -1 linear
+lf root--db1j4 1 0.95 -1 linear
+lf root--db1j5 1 0.95 -1 linear
+lf root--db1j6 1 0.99 -1 linear
+lf root--db1j7 1 0.99 -1 linear
+lf root--mltj1 1 400 -1 linear
+lf root--mltj2 1 400 -1 linear
+lf root--mltj3 1 450 -1 linear
+lf root--mltj4 1 450 -1 linear
+lf root--mltj5 1 500 -1 linear
+lf root--mltj6 1 500 -1 linear
+lf root--mltj7 1 500 -1 linear
+lf root--prsj1 1 0.9 -1 linear
+lf root--prsj2 1 0.9 -1 linear
+lf root--prsj3 1 0.95 -1 linear
+05-23 15:49:01 | INFO   | root                                     || Created Env: Env(#nodes=21, #leaf-nodes=20):: (db0j1, e0.05, t0.90), (db0j2, e0.05, t0.90), (db0j3, e0.05, t0.95), (db1j1, e0.05, t0.90), (db1j2, e0.05, t0.90), (db1j3, e0.05, t0.95), (db1j4, e0.05, t0.95), (db1j5, e0.05, t0.95), (db1j6, e0.05, t0.99), (db1j7, e0.05, t0.99), (mltj1, e0.05, t400.00), (mltj2, e0.05, t400.00), (mltj3, e0.05, t450.00), (mltj4, e0.05, t450.00), (mltj5, e0.05, t500.00), (mltj6, e0.05, t500.00), (mltj7, e0.05, t500.00), (prsj1, e0.05, t0.90), (prsj2, e0.05, t0.90), (prsj3, e0.05, t0.95).,
+in root -1
+lf root--db0j1 1 0.9 -1 linear
+lf root--db0j2 1 0.9 -1 linear
+lf root--db0j3 1 0.95 -1 linear
+lf root--db1j1 1 0.9 -1 linear
+lf root--db1j2 1 0.9 -1 linear
+lf root--db1j3 1 0.95 -1 linear
+lf root--db1j4 1 0.95 -1 linear
+lf root--db1j5 1 0.95 -1 linear
+lf root--db1j6 1 0.99 -1 linear
+lf root--db1j7 1 0.99 -1 linear
+lf root--mltj1 1 400 -1 linear
+lf root--mltj2 1 400 -1 linear
+lf root--mltj3 1 450 -1 linear
+lf root--mltj4 1 450 -1 linear
+lf root--mltj5 1 500 -1 linear
+lf root--mltj6 1 500 -1 linear
+lf root--mltj7 1 500 -1 linear
+lf root--prsj1 1 0.9 -1 linear
+lf root--prsj2 1 0.9 -1 linear
+lf root--prsj3 1 0.95 -1 linear
+
+05-23 15:49:01 | INFO   | root                                     || Loading profiled information from /cilantro/demos/exp1/profiled_oct7.
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb0, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e2f143910>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb0, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e2f143910>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb0, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e2f143910>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb1, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcef90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb1, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcef90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb1, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcef90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb1, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcef90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb1, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcef90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb1, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcef90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craydb1, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcef90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craymltrain, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcee50>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craymltrain, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcee50>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craymltrain, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcee50>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craymltrain, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcee50>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craymltrain, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcee50>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craymltrain, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcee50>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craymltrain, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bcee50>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craypredserv, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bceb90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craypredserv, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bceb90>
+05-23 15:49:01 | INFO   | cilantro.profiling.profiled_info_loader  || workload_type: craypredserv, <cilantro.profiling.profiled_info_loader.ProfiledInfo object at 0x7f3e01bceb90>
+05-23 15:49:01 | INFO   | root                                     || 
+ Estimated p50 total demand = 1912.000
+root--db0j1 (craydb0): 6.248  (ud=0.31226, p50_load=20.01)
+root--db0j2 (craydb0): 6.248  (ud=0.31226, p50_load=20.01)
+root--db0j3 (craydb0): 6.409  (ud=0.32031, p50_load=20.01)
+root--db1j1 (craydb1): 90.667  (ud=2.14644, p50_load=42.24)
+root--db1j2 (craydb1): 90.667  (ud=2.14644, p50_load=42.24)
+root--db1j3 (craydb1): 146.261  (ud=3.46258, p50_load=42.24)
+root--db1j4 (craydb1): 146.261  (ud=3.46258, p50_load=42.24)
+root--db1j5 (craydb1): 146.261  (ud=3.46258, p50_load=42.24)
+root--db1j6 (craydb1): 163.373  (ud=3.86768, p50_load=42.24)
+root--db1j7 (craydb1): 163.373  (ud=3.86768, p50_load=42.24)
+root--mltj1 (craymltrain): 99.887  (ud=99.88651, p50_load=1.00)
+root--mltj2 (craymltrain): 99.887  (ud=99.88651, p50_load=1.00)
+root--mltj3 (craymltrain): 119.934  (ud=119.93412, p50_load=1.00)
+root--mltj4 (craymltrain): 119.934  (ud=119.93412, p50_load=1.00)
+root--mltj5 (craymltrain): 150.000  (ud=150.00000, p50_load=1.00)
+root--mltj6 (craymltrain): 150.000  (ud=150.00000, p50_load=1.00)
+root--mltj7 (craymltrain): 150.000  (ud=150.00000, p50_load=1.00)
+root--prsj1 (craypredserv): 12.755  (ud=0.31603, p50_load=40.36)
+root--prsj2 (craypredserv): 12.755  (ud=0.31603, p50_load=40.36)
+root--prsj3 (craypredserv): 23.017  (ud=0.57029, p50_load=40.36)
+Estimated p99 total demand = 2088.000
+root--db0j1 (craydb0): 7.343  (ud=0.31226, p99_load=23.52)
+root--db0j2 (craydb0): 7.343  (ud=0.31226, p99_load=23.52)
+root--db0j3 (craydb0): 7.532  (ud=0.32031, p99_load=23.52)
+root--db1j1 (craydb1): 106.469  (ud=2.14644, p99_load=49.60)
+root--db1j2 (craydb1): 106.469  (ud=2.14644, p99_load=49.60)
+root--db1j3 (craydb1): 171.753  (ud=3.46258, p99_load=49.60)
+root--db1j4 (craydb1): 171.753  (ud=3.46258, p99_load=49.60)
+root--db1j5 (craydb1): 171.753  (ud=3.46258, p99_load=49.60)
+root--db1j6 (craydb1): 191.847  (ud=3.86768, p99_load=49.60)
+root--db1j7 (craydb1): 191.847  (ud=3.86768, p99_load=49.60)
+root--mltj1 (craymltrain): 99.887  (ud=99.88651, p99_load=1.00)
+root--mltj2 (craymltrain): 99.887  (ud=99.88651, p99_load=1.00)
+root--mltj3 (craymltrain): 119.934  (ud=119.93412, p99_load=1.00)
+root--mltj4 (craymltrain): 119.934  (ud=119.93412, p99_load=1.00)
+root--mltj5 (craymltrain): 150.000  (ud=150.00000, p99_load=1.00)
+root--mltj6 (craymltrain): 150.000  (ud=150.00000, p99_load=1.00)
+root--mltj7 (craymltrain): 150.000  (ud=150.00000, p99_load=1.00)
+root--prsj1 (craypredserv): 15.011  (ud=0.31603, p99_load=47.50)
+root--prsj2 (craypredserv): 15.011  (ud=0.31603, p99_load=47.50)
+root--prsj3 (craypredserv): 27.087  (ud=0.57029, p99_load=47.50)
+05-23 15:49:01 | INFO   | __main__                                 || Initialised policy <cilantro.policies.mmf.HMMFDirect object at 0x7f3df1d07110>.
+05-23 15:49:01 | INFO   | cilantro.data_loggers.data_logger_bank   || Initiated writing to disk loop for data logger in dir workdirs/mmf_exp_env_1_40_eks_0523154901.
+05-23 15:49:15 | INFO   | cilantro.workloads.k8s_workload_deployer || Deployed 80 kubernetes objects. Check dashboard for status.
+05-23 15:49:15 | INFO   | __main__                                 || Workload deployed!
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db0j3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j4', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j4', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j4', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j5', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j5', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j5', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j6', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j6', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j6', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j7', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j7', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--db1j7', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj4', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj4', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj4', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj5', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj5', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj5', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj6', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj6', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj6', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj7', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj7', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--mltj7', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj1', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj2', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert threshold to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_weight to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj3', 'is_workload': 'true'}
+05-23 15:49:15 | WARNING | cilantro.backends.k8s.kubernetes_manager || Unable to convert app_unit_demand to float or value was not found while parsing k8s labels. Using default 1. Labels were {'app': 'root--prsj3', 'is_workload': 'true'}
+05-23 15:50:44 | ERROR  | asyncio                                  || Task exception was never retrieved
+future: <Task finished coro=<KubernetesManager.local_state_update_loop() done, defined at /cilantro/cilantro/backends/k8s/kubernetes_manager.py:148> exception=ApiException()>
+Traceback (most recent call last):
+  File "/cilantro/cilantro/backends/k8s/kubernetes_manager.py", line 150, in local_state_update_loop
+    added_deployments, removed_deployments = self.update_local_state()
+  File "/cilantro/cilantro/backends/k8s/kubernetes_manager.py", line 86, in update_local_state
+    deps = self.get_deployments()
+  File "/cilantro/cilantro/backends/k8s/kubernetes_manager.py", line 98, in get_deployments
+    deps = self.appsapi.list_namespaced_deployment(namespace=self.namespace)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api/apps_v1_api.py", line 3269, in list_namespaced_deployment
+    return self.list_namespaced_deployment_with_http_info(namespace, **kwargs)  # noqa: E501
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api/apps_v1_api.py", line 3394, in list_namespaced_deployment_with_http_info
+    collection_formats=collection_formats)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api_client.py", line 353, in call_api
+    _preload_content, _request_timeout, _host)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api_client.py", line 184, in __call_api
+    _request_timeout=_request_timeout)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api_client.py", line 377, in request
+    headers=headers)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/rest.py", line 243, in GET
+    query_params=query_params)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/rest.py", line 233, in request
+    raise ApiException(http_resp=r)
+kubernetes.client.exceptions.ApiException: (500)
+Reason: Internal Server Error
+HTTP response headers: HTTPHeaderDict({'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '584f0214-d746-4402-aeb4-213d8e42de56', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'a763292c-7b40-45ff-b609-d337c67ad549', 'Date': 'Tue, 23 May 2023 15:50:44 GMT', 'Content-Length': '122'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"etcdserver: request timed out","code":500}
+
+
+05-23 15:53:02 | INFO   | cilantro.core.performance_recorder       || Returning zeros since len(data_batches)=20, leaf_data_lengths: {'root--db0j1': 0, 'root--db0j2': 0, 'root--db0j3': 0, 'root--db1j1': 0, 'root--db1j2': 0, 'root--db1j3': 0, 'root--db1j4': 0, 'root--db1j5': 0, 'root--db1j6': 0, 'root--db1j7': 0, 'root--mltj1': 0, 'root--mltj2': 0, 'root--mltj3': 0, 'root--mltj4': 0, 'root--mltj5': 0, 'root--mltj6': 0, 'root--mltj7': 0, 'root--prsj1': 0, 'root--prsj2': 0, 'root--prsj3': 0}
+05-23 15:53:02 | INFO   | cilantro.core.performance_recorder       || 
+mmf (0.0):: res-loss=0.000, fair_viol:(sum=0.000, max=0.000, mean=0.000), util_welf=0.000, egal_welf=0.000, avg_rew=0.000,  cost=0.000
+    - root--db0j1: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=0.312, time=0.000, root--db0j2: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=0.312, time=0.000, root--db0j3: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=0.320, time=0.000, root--db1j1: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=2.146, time=0.000, root--db1j2: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=2.146, time=0.000, root--db1j3: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.463, time=0.000, root--db1j4: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.463, time=0.000, root--db1j5: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.463, time=0.000, root--db1j6: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.868, time=0.000, root--db1j7: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.868, time=0.000, root--mltj1: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=99.887, time=0.000, root--mltj2: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=99.887, time=0.000, root--mltj3: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=119.934, time=0.000, root--mltj4: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=119.934, time=0.000, root--mltj5: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=150.000, time=0.000, root--mltj6: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=150.000, time=0.000, root--mltj7: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=150.000, time=0.000, root--prsj1: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=0.316, time=0.000, root--prsj2: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=0.316, time=0.000, root--prsj3: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=0.570, time=0.000
+/usr/local/lib/python3.7/site-packages/statsmodels/tsa/statespace/sarimax.py:868: UserWarning: Too few observations to estimate starting parameters for ARMA and trend. All parameters except for variances will be set to zeros.
+  ' zeros.' % warning_description)
+/usr/local/lib/python3.7/site-packages/statsmodels/tsa/statespace/sarimax.py:966: UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  warn('Non-stationary starting autoregressive parameters'
+/usr/local/lib/python3.7/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+05-23 15:57:02 | INFO   | cilantro.core.performance_recorder       || Returning zeros since len(data_batches)=20, leaf_data_lengths: {'root--db0j1': 13, 'root--db0j2': 14, 'root--db0j3': 12, 'root--db1j1': 13, 'root--db1j2': 12, 'root--db1j3': 0, 'root--db1j4': 0, 'root--db1j5': 0, 'root--db1j6': 0, 'root--db1j7': 0, 'root--mltj1': 0, 'root--mltj2': 0, 'root--mltj3': 0, 'root--mltj4': 0, 'root--mltj5': 0, 'root--mltj6': 4, 'root--mltj7': 5, 'root--prsj1': 8, 'root--prsj2': 8, 'root--prsj3': 9}
+05-23 15:57:02 | INFO   | cilantro.core.performance_recorder       || 
+mmf (0.0):: res-loss=0.000, fair_viol:(sum=0.000, max=0.000, mean=0.000), util_welf=0.000, egal_welf=0.000, avg_rew=1.805,  cost=0.000
+    - root--db0j1: util=0.185, rew=0.167 alloc=1.000, load=19.202, ud=0.312, time=167.120, root--db0j2: util=0.192, rew=0.173 alloc=1.000, load=19.475, ud=0.312, time=189.111, root--db0j3: util=0.173, rew=0.164 alloc=1.000, load=19.223, ud=0.320, time=167.355, root--db1j1: util=0.178, rew=0.160 alloc=2.000, load=40.653, ud=2.146, time=185.006, root--db1j2: util=0.165, rew=0.148 alloc=2.000, load=40.407, ud=2.146, time=166.207, root--db1j3: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.463, time=0.000, root--db1j4: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.463, time=0.000, root--db1j5: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.463, time=0.000, root--db1j6: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.868, time=0.000, root--db1j7: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=3.868, time=0.000, root--mltj1: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=99.887, time=0.000, root--mltj2: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=99.887, time=0.000, root--mltj3: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=119.934, time=0.000, root--mltj4: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=119.934, time=0.000, root--mltj5: util=0.000, rew=0.000 alloc=0.000, load=0.000, ud=150.000, time=0.000, root--mltj6: util=0.030, rew=14.986 alloc=2.563, load=1.000, ud=150.000, time=104.496, root--mltj7: util=0.040, rew=19.779 alloc=2.674, load=1.000, ud=150.000, time=115.119, root--prsj1: util=0.197, rew=0.177 alloc=1.000, load=38.567, ud=0.316, time=125.549, root--prsj2: util=0.182, rew=0.163 alloc=1.000, load=38.039, ud=0.316, time=122.189, root--prsj3: util=0.185, rew=0.176 alloc=1.000, load=38.028, ud=0.570, time=125.170
