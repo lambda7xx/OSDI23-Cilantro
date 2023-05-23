@@ -1,0 +1,37 @@
+num_vals: %s.
+ prob_vals: %s.
+ num_samples: %s.
+ vals: %s.
+
+Traceback (most recent call last):
+  File "/cilantro/demos/exp2/driver.py", line 243, in <module>
+    main()
+  File "/cilantro/demos/exp2/driver.py", line 237, in main
+    event_loop.run_until_complete(cilantro.scheduler_loop())
+  File "/usr/local/lib/python3.7/asyncio/base_events.py", line 587, in run_until_complete
+    return future.result()
+  File "/cilantro/cilantro/scheduler/cilantroscheduler.py", line 235, in scheduler_loop
+    self.process_event(event)
+  File "/cilantro/cilantro/scheduler/cilantroscheduler.py", line 123, in process_event
+    self.processor_alloc_expiration_event(event)
+  File "/cilantro/cilantro/scheduler/cilantroscheduler.py", line 131, in processor_alloc_expiration_event
+    new_allocation = self.policy.get_resource_allocation()  # dict {app_path: allocation}
+  File "/cilantro/cilantro/policies/base_policy.py", line 66, in get_resource_allocation
+    ret = self._get_resource_allocation_for_loads(curr_loads, *args, **kwargs)
+  File "/cilantro/cilantro/policies/ms_evo_opt.py", line 62, in _get_resource_allocation_for_loads
+    next_nonint_alloc = self.evo_opt.get_next_eval_point()
+  File "/cilantro/cilantro/policies/evo_opt.py", line 148, in get_next_eval_point
+    self.generate_new_eval_points()
+  File "/cilantro/cilantro/policies/evo_opt.py", line 142, in generate_new_eval_points
+    new_mutations = [self._mutation_op(elem) for elem in past_allocs_to_mutate_from]
+  File "/cilantro/cilantro/policies/evo_opt.py", line 142, in <listcomp>
+    new_mutations = [self._mutation_op(elem) for elem in past_allocs_to_mutate_from]
+  File "/cilantro/cilantro/policies/evo_opt.py", line 36, in <lambda>
+    min_alloc_per_leaf=min_alloc_per_leaf)
+  File "/cilantro/cilantro/policies/evo_opt.py", line 48, in _dflt_mutation_op
+    return _dflt_mutation_op_2(curr_alloc, *args, **kwargs)
+  File "/cilantro/cilantro/policies/evo_opt.py", line 82, in _dflt_mutation_op_2
+    norm_orig_vals = [elem/sum_orig_vals for elem in orig_vals]
+  File "/cilantro/cilantro/policies/evo_opt.py", line 82, in <listcomp>
+    norm_orig_vals = [elem/sum_orig_vals for elem in orig_vals]
+ZeroDivisionError: division by zero
