@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/cilantro/cilantro/backends/k8s/kubernetes_manager.py", line 150, in local_state_update_loop
+    added_deployments, removed_deployments = self.update_local_state()
+  File "/cilantro/cilantro/backends/k8s/kubernetes_manager.py", line 86, in update_local_state
+    deps = self.get_deployments()
+  File "/cilantro/cilantro/backends/k8s/kubernetes_manager.py", line 98, in get_deployments
+    deps = self.appsapi.list_namespaced_deployment(namespace=self.namespace)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api/apps_v1_api.py", line 3269, in list_namespaced_deployment
+    return self.list_namespaced_deployment_with_http_info(namespace, **kwargs)  # noqa: E501
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api/apps_v1_api.py", line 3394, in list_namespaced_deployment_with_http_info
+    collection_formats=collection_formats)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api_client.py", line 353, in call_api
+    _preload_content, _request_timeout, _host)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api_client.py", line 184, in __call_api
+    _request_timeout=_request_timeout)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/api_client.py", line 377, in request
+    headers=headers)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/rest.py", line 243, in GET
+    query_params=query_params)
+  File "/usr/local/lib/python3.7/site-packages/kubernetes/client/rest.py", line 233, in request
+    raise ApiException(http_resp=r)
+kubernetes.client.exceptions.ApiException: (500)
+Reason: Internal Server Error
+HTTP response headers: HTTPHead
