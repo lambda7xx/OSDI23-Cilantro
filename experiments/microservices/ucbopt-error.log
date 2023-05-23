@@ -1,0 +1,28 @@
+File "/cilantro/cilantro/scheduler/cilantroscheduler.py", line 235, in scheduler_loop                                                           [435/1191]
+    self.process_event(event)
+  File "/cilantro/cilantro/scheduler/cilantroscheduler.py", line 123, in process_event
+    self.processor_alloc_expiration_event(event)
+  File "/cilantro/cilantro/scheduler/cilantroscheduler.py", line 131, in processor_alloc_expiration_event
+    new_allocation = self.policy.get_resource_allocation()  # dict {app_path: allocation}
+  File "/cilantro/cilantro/policies/base_policy.py", line 66, in get_resource_allocation
+    ret = self._get_resource_allocation_for_loads(curr_loads, *args, **kwargs)
+  File "/cilantro/cilantro/policies/ucb_opt.py", line 68, in _get_resource_allocation_for_loads
+    min_alloc_per_leaf=MIN_ALLOC_PER_LEAF)
+  File "/cilantro/cilantro/policies/evo_opt.py", line 198, in optimise_with_evo_alg
+    next_eval_pt = evo_opt.get_next_eval_point()
+  File "/cilantro/cilantro/policies/evo_opt.py", line 148, in get_next_eval_point
+    self.generate_new_eval_points()
+  File "/cilantro/cilantro/policies/evo_opt.py", line 142, in generate_new_eval_points
+    new_mutations = [self._mutation_op(elem) for elem in past_allocs_to_mutate_from]
+  File "/cilantro/cilantro/policies/evo_opt.py", line 142, in <listcomp>
+    new_mutations = [self._mutation_op(elem) for elem in past_allocs_to_mutate_from]
+  File "/cilantro/cilantro/policies/evo_opt.py", line 179, in <lambda>
+    min_alloc_per_leaf=min_alloc_per_leaf)
+  File "/cilantro/cilantro/policies/evo_opt.py", line 46, in _dflt_mutation_op
+    return _dflt_mutation_op_1(curr_alloc, *args, **kwargs)
+  File "/cilantro/cilantro/policies/evo_opt.py", line 70, in _dflt_mutation_op_1
+    _simple_step(ret)
+  File "/cilantro/cilantro/policies/evo_opt.py", line 61, in _simple_step
+    key_to_flip_from = np.random.choice(keys_to_flip_from)
+      File "mtrand.pyx", line 915, in numpy.random.mtrand.RandomState.choice
+ValueError: 'a' cannot be empty unless no samples are taken
