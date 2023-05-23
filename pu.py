@@ -6,10 +6,10 @@ while True:
     os.system('git add .')
     
     # 提交更改，并添加提交信息
-    os.system('git commit -m "add AE5"')
+    os.system('git commit -m "add AE3"')
     
     # 推送到远程仓库
-    os.system('git push origin AE5')
+    os.system('git push origin AE3')
     print("ok")
     # 暂停两分钟
     time.sleep(120)
