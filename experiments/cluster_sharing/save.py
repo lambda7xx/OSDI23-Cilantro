@@ -3,7 +3,7 @@ import os
 
 while True:
     # 添加所有更改到暂存区
-    os.system("./starters/fetch_results.sh")
+    os.system("sudo ./starters/fetch_results.sh")
     os.system('git add .')
     
     # 提交更改，并添加提交信息
