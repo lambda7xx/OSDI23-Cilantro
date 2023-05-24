@@ -1,4 +1,4 @@
-POLICY=utilwelflearn
+POLICY=egalwelforacle
 # If running on EKS
 # ./starters/launch_cilantro_driver.sh ~/.kube/config $POLICY
 # If running on kind (local cluster)
