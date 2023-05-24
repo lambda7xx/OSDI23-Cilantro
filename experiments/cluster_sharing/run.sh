@@ -1,5 +1,5 @@
 # Set the policy to run - propfair, mmf, mmflearn, utilwelforacle, utilwelflearn, evoutil, egalwelforacle, egalwelflearn, evoegal, greedyegal, minerva, ernest, quasar, parties, multincadddec
-POLICY=mmf
+POLICY=greedyegal
 # # If running on EKS
 # ./starters/launch_cilantro_driver.sh ~/.kube/config $POLICY
 # If running on kind (local cluster)
