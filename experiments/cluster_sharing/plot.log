@@ -1,22 +1,20 @@
+/users/lambda7x/cilantro/cilantro/ancillary/plotting.py:193: RuntimeWarning: invalid value encountered in sqrt
+  np.sqrt(mean_sq_alloc_per_unit_load - mean_alloc_per_unit_load ** 2)
 Printing results from directories:
-%s workdirs_eks/minerva_exp_env_1_40_eks_0524034438
-workdirs_eks/quasar_exp_env_1_40_eks_0524033935
-workdirs_eks/egalwelflearn_exp_env_1_40_eks_0524092933
-workdirs_eks/evoutil_exp_env_1_40_eks_0523161233
-workdirs_eks/egalwelforacle_exp_env_1_40_eks_0524093543
-workdirs_eks/multincadddec_exp_env_1_40_eks_0524093705
-workdirs_eks/ernest_exp_env_1_40_eks_0524034301
-workdirs_eks/mmf_exp_env_1_40_eks_0523154901
-workdirs_eks/propfair_exp_env_1_40_eks_0523152456
-workdirs_eks/parties_exp_env_1_40_eks_0524034421
+%s workdirs_eks/mmf_exp_env_1_40_eks_0523154901
 workdirs_eks/mmflearn_exp_env_1_40_eks_0523160339
-workdirs_eks/greedyegal_exp_env_1_40_eks_0524092352
 workdirs_eks/utilwelforacle_exp_env_1_40_eks_0524032535
-workdirs_eks/evoegal_exp_env_1_40_eks_0524092411
 workdirs_eks/utilwelflearn_exp_env_1_40_eks_0523162836
 env:Env(#nodes=21, #leaf-nodes=20):: (db0j1, e0.05, t0.90), (db0j2, e0.05, t0.90), (db0j3, e0.05, t0.95), (db1j1, e0.05, t0.90), (db1j2, e0.05, t0.90), (db1j3, e0.05, t0.95), (db1j4, e0.05, t0.95), (db1j5, e0.05, t0.95), (db1j6, e0.05, t0.99), (db1j7, e0.05, t0.99), (mltj1, e0.05, t400.00), (mltj2, e0.05, t400.00), (mltj3, e0.05, t450.00), (mltj4, e0.05, t450.00), (mltj5, e0.05, t500.00), (mltj6, e0.05, t500.00), (mltj7, e0.05, t500.00), (prsj1, e0.05, t0.90), (prsj2, e0.05, t0.90), (prsj3, e0.05, t0.95).
-method minerva
+method mmf
 len(log_files_in_workdir):10 and len(env.leaf_nodes):20
+env_metrics <class 'dict'>
+method mmflearn
+len(log_files_in_workdir):12 and len(env.leaf_nodes):20
+env_metrics <class 'dict'>
+method utilwelforacle
+len(log_files_in_workdir):1 and len(env.leaf_nodes):20
+env_metrics <class 'NoneType'>
 Traceback (most recent call last):
   File "plot_results.py", line 75, in <module>
     main()
@@ -28,6 +26,6 @@ Traceback (most recent call last):
     util_compute_grid_size)
   File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 330, in process_log_files_lists_for_a_method
     experiment_info, util_compute_grid_size)
-  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 207, in process_log_files_in_single_workdir
-    assert len(log_files_in_workdir) == len(env.leaf_nodes)
-AssertionError
+  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 231, in process_log_files_in_single_workdir
+    env_metrics['grid'] = [elem - env_metrics['grid'][0] for elem in env_metrics['grid']]
+TypeError: 'NoneType' object is not subscriptable
