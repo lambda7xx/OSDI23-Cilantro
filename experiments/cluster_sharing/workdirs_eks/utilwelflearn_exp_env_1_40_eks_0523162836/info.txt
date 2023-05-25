@@ -1,2 +1,0 @@
-resource_quantity:::40.0
-alloc_granularity:::1
