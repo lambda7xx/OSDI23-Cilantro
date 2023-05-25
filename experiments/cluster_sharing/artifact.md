@@ -1,3 +1,5 @@
 - I get about 12 nodes from Cloudlab. The node is c8220 on Clem cluster
 - I first run the microservice expeiment. I run each policy at least 8 hours but I fail to reproduce the `policy=ucbopt` and `policy=msevoopt`.
-    - I use the script to plot the result of `ploci`
+    - I use the script to plot the result of `policy=msile` and `plciy=propfair`
+    - The figure tend is like Figure 10 Center and Right
+- Then I use each node to reproduce the policy of cluster_sharing experiment at least 8 hours.
