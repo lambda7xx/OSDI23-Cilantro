@@ -3,3 +3,4 @@
     - I use the script to plot the result of `policy=msile` and `plciy=propfair`
     - The figure tend is like Figure 10 Center and Right
 - Then I use each node to reproduce the policy of cluster_sharing experiment at least 8 hours.
+    - But I can not use the plot_result.py to plot the result. It seems there has some bug on the script or there has some problem on my data.
