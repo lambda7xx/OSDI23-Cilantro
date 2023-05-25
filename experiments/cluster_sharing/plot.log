@@ -14,6 +14,7 @@ workdirs_eks/greedyegal_exp_env_1_40_eks_0524092352
 workdirs_eks/utilwelforacle_exp_env_1_40_eks_0524032535
 workdirs_eks/evoegal_exp_env_1_40_eks_0524092411
 workdirs_eks/utilwelflearn_exp_env_1_40_eks_0523162836
+env:Env(#nodes=21, #leaf-nodes=20):: (db0j1, e0.05, t0.90), (db0j2, e0.05, t0.90), (db0j3, e0.05, t0.95), (db1j1, e0.05, t0.90), (db1j2, e0.05, t0.90), (db1j3, e0.05, t0.95), (db1j4, e0.05, t0.95), (db1j5, e0.05, t0.95), (db1j6, e0.05, t0.99), (db1j7, e0.05, t0.99), (mltj1, e0.05, t400.00), (mltj2, e0.05, t400.00), (mltj3, e0.05, t450.00), (mltj4, e0.05, t450.00), (mltj5, e0.05, t500.00), (mltj6, e0.05, t500.00), (mltj7, e0.05, t500.00), (prsj1, e0.05, t0.90), (prsj2, e0.05, t0.90), (prsj3, e0.05, t0.95).
 method minerva
 len(log_files_in_workdir):10 and len(env.leaf_nodes):20
 Traceback (most recent call last):
@@ -21,7 +22,7 @@ Traceback (most recent call last):
     main()
   File "plot_results.py", line 71, in main
     options=options)
-  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 900, in plot_results
+  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 901, in plot_results
     method_order=plot_order, util_compute_grid_size=options['util_compute_grid_size'])
   File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 379, in process_log_files_lists_for_all_methods
     util_compute_grid_size)
