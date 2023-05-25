@@ -1,4 +1,4 @@
-/users/lambda7x/cilantro/cilantro/ancillary/plotting.py:193: RuntimeWarning: invalid value encountered in sqrt
+/users/xxxx/cilantro/cilantro/ancillary/plotting.py:193: RuntimeWarning: invalid value encountered in sqrt
   np.sqrt(mean_sq_alloc_per_unit_load - mean_alloc_per_unit_load ** 2)
 Printing results from directories:
 %s workdirs_eks/mmf_exp_env_1_40_eks_0523154901
@@ -16,10 +16,10 @@ Traceback (most recent call last):
     main()
   File "plot_results.py", line 72, in main
     options=options)
-  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 908, in plot_results
+  File "/users/xxxx/cilantro/cilantro/ancillary/plotting.py", line 908, in plot_results
     options=options)
-  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 316, in create_bar_plots_from_leaf_metrics
+  File "/users/xxxx/cilantro/cilantro/ancillary/plotting.py", line 316, in create_bar_plots_from_leaf_metrics
     for leaf in leafs_to_plot}
-  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 316, in <dictcomp>
+  File "/users/xxxx/cilantro/cilantro/ancillary/plotting.py", line 316, in <dictcomp>
     for leaf in leafs_to_plot}
 KeyError: 'root--db1j3'
