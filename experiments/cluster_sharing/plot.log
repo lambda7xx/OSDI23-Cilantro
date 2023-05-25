@@ -1,0 +1,32 @@
+Printing results from directories:
+%s workdirs_eks/minerva_exp_env_1_40_eks_0524034438
+workdirs_eks/quasar_exp_env_1_40_eks_0524033935
+workdirs_eks/egalwelflearn_exp_env_1_40_eks_0524092933
+workdirs_eks/evoutil_exp_env_1_40_eks_0523161233
+workdirs_eks/egalwelforacle_exp_env_1_40_eks_0524093543
+workdirs_eks/multincadddec_exp_env_1_40_eks_0524093705
+workdirs_eks/ernest_exp_env_1_40_eks_0524034301
+workdirs_eks/mmf_exp_env_1_40_eks_0523154901
+workdirs_eks/propfair_exp_env_1_40_eks_0523152456
+workdirs_eks/parties_exp_env_1_40_eks_0524034421
+workdirs_eks/mmflearn_exp_env_1_40_eks_0523160339
+workdirs_eks/greedyegal_exp_env_1_40_eks_0524092352
+workdirs_eks/utilwelforacle_exp_env_1_40_eks_0524032535
+workdirs_eks/evoegal_exp_env_1_40_eks_0524092411
+workdirs_eks/utilwelflearn_exp_env_1_40_eks_0523162836
+method minerva
+len(log_files_in_workdir):10 and len(env.leaf_nodes):20
+Traceback (most recent call last):
+  File "plot_results.py", line 75, in <module>
+    main()
+  File "plot_results.py", line 71, in main
+    options=options)
+  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 900, in plot_results
+    method_order=plot_order, util_compute_grid_size=options['util_compute_grid_size'])
+  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 379, in process_log_files_lists_for_all_methods
+    util_compute_grid_size)
+  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 330, in process_log_files_lists_for_a_method
+    experiment_info, util_compute_grid_size)
+  File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 207, in process_log_files_in_single_workdir
+    assert len(log_files_in_workdir) == len(env.leaf_nodes)
+AssertionError
