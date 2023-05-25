@@ -11,10 +11,17 @@ TO_PLOT_LEGEND = True
 PLOT_TIME_BOUNDS = (0, 6 * 3600)
 
 
+# METHOD_ORDER = [
+#     'mssile',
+#     'ucbopt',
+#     'msevoopt',
+#     'propfair'
+#     ]
+
 METHOD_ORDER = [
     'mssile',
-    'ucbopt',
-    'msevoopt',
+    # 'ucbopt',
+    # 'msevoopt',
     'propfair'
     ]
 
