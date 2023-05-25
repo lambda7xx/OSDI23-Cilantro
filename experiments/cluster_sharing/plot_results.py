@@ -14,7 +14,8 @@ METHOD_ORDER = [
     'mmf',
     'mmflearn',
     # 'utilwelforacle',
-    'utilwelflearn',
+    # 'utilwelflearn',
+    
     # 'egalwelforacle',
     # 'egalwelflearn',
     # 'propfair',

@@ -1,11 +1,8 @@
 /users/lambda7x/cilantro/cilantro/ancillary/plotting.py:193: RuntimeWarning: invalid value encountered in sqrt
   np.sqrt(mean_sq_alloc_per_unit_load - mean_alloc_per_unit_load ** 2)
-/users/lambda7x/cilantro/cilantro/core/performance_recorder.py:549: RuntimeWarning: invalid value encountered in double_scalars
-  ret = {fld: val/tot_time for fld, val in tot_vals.items()}
 Printing results from directories:
 %s workdirs_eks/mmf_exp_env_1_40_eks_0523154901
 workdirs_eks/mmflearn_exp_env_1_40_eks_0523160339
-workdirs_eks/utilwelflearn_exp_env_1_40_eks_0523162836
 env:Env(#nodes=21, #leaf-nodes=20):: (db0j1, e0.05, t0.90), (db0j2, e0.05, t0.90), (db0j3, e0.05, t0.95), (db1j1, e0.05, t0.90), (db1j2, e0.05, t0.90), (db1j3, e0.05, t0.95), (db1j4, e0.05, t0.95), (db1j5, e0.05, t0.95), (db1j6, e0.05, t0.99), (db1j7, e0.05, t0.99), (mltj1, e0.05, t400.00), (mltj2, e0.05, t400.00), (mltj3, e0.05, t450.00), (mltj4, e0.05, t450.00), (mltj5, e0.05, t500.00), (mltj6, e0.05, t500.00), (mltj7, e0.05, t500.00), (prsj1, e0.05, t0.90), (prsj2, e0.05, t0.90), (prsj3, e0.05, t0.95).
 method mmf
 len(log_files_in_workdir):10 and len(env.leaf_nodes):20
@@ -13,13 +10,10 @@ env_metrics <class 'dict'>
 method mmflearn
 len(log_files_in_workdir):12 and len(env.leaf_nodes):20
 env_metrics <class 'dict'>
-method utilwelflearn
-len(log_files_in_workdir):13 and len(env.leaf_nodes):20
-env_metrics <class 'dict'>
 Traceback (most recent call last):
-  File "plot_results.py", line 75, in <module>
+  File "plot_results.py", line 76, in <module>
     main()
-  File "plot_results.py", line 71, in main
+  File "plot_results.py", line 72, in main
     options=options)
   File "/users/lambda7x/cilantro/cilantro/ancillary/plotting.py", line 907, in plot_results
     options=options)
