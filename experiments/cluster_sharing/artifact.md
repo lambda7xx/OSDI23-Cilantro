@@ -1,0 +1,2 @@
+- I get about 12 nodes from Cloudlab. The node is c8220 on Clem cluster
+- I first run the microservice e
