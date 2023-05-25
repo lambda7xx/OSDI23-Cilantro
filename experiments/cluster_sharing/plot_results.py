@@ -30,22 +30,22 @@ METHOD_ORDER = [
     ]
 
 METHOD_LEGEND_MARKER_DICT = {
-    'minerva': {'colour': 'orange', 'linestyle': '-', 'legend': 'Minerva'},
-    'ernest': {'colour': 'yellow', 'linestyle': '-', 'legend': 'Ernest'},
-    'quasar': {'colour': 'brown', 'linestyle': '-', 'legend': 'Quasar'},
-    'parties': {'colour': 'silver', 'linestyle': '-', 'legend': 'Parties'},
-    'multincadddec': {'colour': 'maroon', 'linestyle': '-', 'legend': 'ADMI'},
-    'propfair': {'colour': 'black', 'linestyle': '-', 'legend': 'Resource-Fair'},
-    # Egal welfare
-    'greedyegal': {'colour': 'teal', 'linestyle': '-', 'legend': 'Greedy-EW'},
-    'evoegal': {'colour': 'olive', 'linestyle': '-', 'legend': 'EvoAlg-EW'},
-    'egalwelflearn': {'colour': 'lightgreen', 'linestyle': '-', 'legend': 'Cilantro-EW'},
-    'egalwelforacle': {'colour': 'darkgreen', 'linestyle': '--', 'legend': 'Oracle-EW'},
-    # Util welfare
-    'evoutil': {'colour': 'purple', 'linestyle': '-', 'legend': 'EvoAlg-SW'},
-    'utilwelflearn': {'colour': 'magenta', 'linestyle': '-', 'legend': 'Cilantro-SW'},
-    'utilwelforacle': {'colour': 'red', 'linestyle': '--', 'legend': 'Oracle-SW'},
-    # MMF
+    # 'minerva': {'colour': 'orange', 'linestyle': '-', 'legend': 'Minerva'},
+    # 'ernest': {'colour': 'yellow', 'linestyle': '-', 'legend': 'Ernest'},
+    # 'quasar': {'colour': 'brown', 'linestyle': '-', 'legend': 'Quasar'},
+    # 'parties': {'colour': 'silver', 'linestyle': '-', 'legend': 'Parties'},
+    # 'multincadddec': {'colour': 'maroon', 'linestyle': '-', 'legend': 'ADMI'},s
+    # 'propfair': {'colour': 'black', 'linestyle': '-', 'legend': 'Resource-Fair'},
+    # # Egal welfare
+    # 'greedyegal': {'colour': 'teal', 'linestyle': '-', 'legend': 'Greedy-EW'},
+    # 'evoegal': {'colour': 'olive', 'linestyle': '-', 'legend': 'EvoAlg-EW'},
+    # 'egalwelflearn': {'colour': 'lightgreen', 'linestyle': '-', 'legend': 'Cilantro-EW'},
+    # 'egalwelforacle': {'colour': 'darkgreen', 'linestyle': '--', 'legend': 'Oracle-EW'},
+    # # Util welfare
+    # 'evoutil': {'colour': 'purple', 'linestyle': '-', 'legend': 'EvoAlg-SW'},
+    # 'utilwelflearn': {'colour': 'magenta', 'linestyle': '-', 'legend': 'Cilantro-SW'},
+    # 'utilwelforacle': {'colour': 'red', 'linestyle': '--', 'legend': 'Oracle-SW'},
+    # # MMF
     'mmflearn': {'colour': 'cyan', 'linestyle': '-', 'legend': 'Cilantro-NJC'},
     'mmf': {'colour': 'blue', 'linestyle': '--', 'legend': 'Oracle-NJC'},
     }
