@@ -1,2 +1,3 @@
 - I get about 12 nodes from Cloudlab. The node is c8220 on Clem cluster
-- I first run the microservice e
+- I first run the microservice expeiment. I run each policy at least 8 hours but I fail to reproduce the `policy=ucbopt` and `policy=msevoopt`.
+    - I use the script to plot the result of `ploci`
